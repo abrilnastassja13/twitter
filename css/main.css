@@ -1,7 +1,46 @@
 .titulo {
 	text-align: center;
+	color: #FF00A2;
 }
 
 .btn {
 	border-radius: 20px;
+	background-color: #F77ECB;
+	margin-bottom: 3%;
+
+}
+
+.btn:hover {
+	background-color: #FF00A2;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	position: relative;
+	padding: 12px 8px 12px 40px;
+	cursor: pointer;
+	font-size: 20px;
+	background-color: #FCE5F4;
+	transition: 1s;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+	background-color: #F8C7E7;
+}
+
+ul li:hover {
+	background-color: #FF89FC;
+}
+
+ul li.checked {
+	color: black;
+	text-decoration: line-through;
 }
