@@ -44,3 +44,23 @@ ul li.checked {
 	color: black;
 	text-decoration: line-through;
 }
+
+ul li.checked::before {
+	content: '';
+    position: absolute;
+    border-color: #FF00A2;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.eliminar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px
+}
